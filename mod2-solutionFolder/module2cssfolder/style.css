@@ -82,10 +82,10 @@ position: relative;
 @media only screen and (min-width: 768px) and (max-width: 991px){
 
 	h1{
-		margin-top: 40px;
+		margin-top: 20%;
 	}
 .row{
-	margin-top: 120px;
+	margin-top: 28%;
 }
 	.firstbox, .secondbox {
 		margin-left: 10px;
