@@ -1,0 +1,105 @@
+body {
+  font-size: 16px;
+  color: #283149;
+  /*background-color: #61122f;*/
+  background-color:#fff ;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+header{
+  width:100%;
+  margin-top: 0;
+}
+#collapsable-nav ul li a{
+  color:#fff;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#header-nav{
+  border-radius: 0;
+  border: 0;
+  background-color:#8800ff;
+}
+hr{
+   width:100%;
+   text-align: center;
+}
+.navbar-brand a h1 {
+  font: italic bold 28px Helvetica;
+  color:gold;
+
+  margin-top: -10px;
+  margin-left: 20px;
+  }
+
+.navbar-brand a{
+  text-decoration: none;
+}
+
+/*mian content area*/
+
+.main-content{
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+h2{
+  text-align: center;
+}
+.write-up p{
+  line-height: 1.8em;
+  font-style: italic;
+
+}
+.write-up{
+  background: linear-gradient(160deg, #601df7 0%, #8800ff 100%);
+  color:#fff;
+    border:1px solid gold;
+  margin: 30px 50px 50px 50px;
+}
+p{
+padding:3%;
+}
+
+
+
+@media (max-width: 760px) {
+  
+  h2{
+  text-align: center;
+}
+
+  #nav-list{
+  text-align: center;
+  margin-left: 20px;
+  color:blue;
+}
+
+
+}
+
+
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+
+  #nav-list{
+  text-align: center;
+  margin-left: 20px;
+  color:blue;
+}
+h2{
+  text-align: center;
+}
+
+
+
+}
+
