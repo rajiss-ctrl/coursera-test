@@ -100,7 +100,7 @@ padding:3%;
   }
 }
 
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+/*
 @media (max-width: 375px) {
 
   .navbar{
@@ -127,6 +127,29 @@ padding:3%;
   .container-fluid{
 
   }
+}
+*/
+@media (max-width: 360px){
+  
+  .navbar{
+    width:422px;
+  
+  }
+  body{
+    width:420px;
+  
+  }
+  .row{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+    .write-up{
+    
+    margin:0 auto 15px;
+  }
+
+
 }
 
 
