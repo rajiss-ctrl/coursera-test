@@ -104,11 +104,11 @@ padding:3%;
 @media (min-width: 411px) and (max-width: 414px){
   
   .navbar{
-    width:422px;
+    width:100%;
   
   }
   body{
-    width:421px;
+    
   
   }
   .row{
@@ -148,12 +148,6 @@ padding:3%;
 }
 @media (max-width: 280px) {
   
-  .navbar{
-    width:100%;
-  
-  }
-  body{
-    width:100%;
   
   }
   .row{
